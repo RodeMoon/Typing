@@ -1,16 +1,20 @@
-"use strict";
-const num1 = 55;
-const num2 = 45;
-const num3 = 30;
-let mayor = num1;
-console.log('This is gonna be the numbers:');
-console.log(num1);
-console.log(num2);
-console.log(num3);
-if (num2 > mayor) {
-    mayor = num2;
-}
-if (num3 > mayor) {
-    mayor = num3;
-}
-console.log(`EL MAYOR ES ${mayor}`);
+(function () {
+    var num1 = 55;
+    var num2 = 45;
+    var num3 = 30;
+    function findBig(a, b, c) {
+        var mayor = a;
+        var nameMayor = "a";
+        if (b > mayor) {
+            mayor = b;
+            nameMayor = "b";
+        }
+        if (c > mayor) {
+            mayor = c;
+            nameMayor = "c";
+        }
+        console.log("Biggest number:", mayor);
+        console.log("Name:", nameMayor);
+    }
+    findBig(num1, num2, num3);
+})();
