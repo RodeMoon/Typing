@@ -1,9 +1,9 @@
 "use strict";
 //Object with properties.
 let planet = {
-    name: "Earth",
+    name: "Saturn",
     galaxy: "Milky Way",
-    numberOfMoons: 1,
+    numberOfMoons: 274,
     weight: 100000
 };
 console.log("Name :- " + planet.name);

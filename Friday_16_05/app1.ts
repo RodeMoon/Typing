@@ -7,9 +7,9 @@ interface Planet{
 
 //Object with properties.
 let planet: Planet = {
-    name : "Earth",
+    name : "Saturn",
     galaxy : "Milky Way",
-    numberOfMoons : 1,
+    numberOfMoons : 274,
     weight : 100000
 };
 
