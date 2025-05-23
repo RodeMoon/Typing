@@ -4,7 +4,7 @@ type Car = {
     modelo: string,
     antibalas: boolean,
     pasajeros: number,
-    disparar?: () => string
+    disparar?: () => void
 }
 
 // Objetos
