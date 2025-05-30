@@ -31,6 +31,7 @@ const result = pair("id", 123); // Type: [string, number]
 console.log(result);
 */
 
+
 /*
 import { fetchData } from "./promise/promise";
 import { fetchDataWithAsyncAwait } from "./promise/promise";
@@ -44,9 +45,18 @@ fetchDataWithAsyncAwait("https://pokeapi.co/api/v2/pokemon/giglet")
   });
 */
 
+/*
 import { showUserInfo } from "./promise/promise1";
 
 // Ejecución de la función principal
 showUserInfo(2); // Prueba con un ID existente
 showUserInfo(99); // Prueba con un ID inexistente para disparar el catch
+*/
+
+//import { showFirstComments } from "./promise/comments";
+//showFirstComments();
+
+import { consultAPIA, consultAPIB } from "./promise/comments1";
+consultAPIA();
+consultAPIB();
 
